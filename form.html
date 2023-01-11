@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="nothing.php">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Bradly">
+        <br><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Cooper">
+        <br><br>
+        <label for="title">Title :</label>
+        <label for="Mr.">Mr.</label>
+        <input type="radio" value="Mr." id="Mr." name="title" checked>
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" value="Mrs." id="Mrs." name="title">
+        <label for="Miss.">Miss.</label>
+        <input type="radio" value="Miss." id="Miss." name="title">
+        <label for="PhD.">PhD.</label>
+        <input type="radio" value="PhD." id="PhD." name="title">
+        <br><br>
+        <label for="payment">Payment: </label>
+        <select name="payment" id="payment">
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+            <option value="upi">upi</option>
+        </select>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="birthday">Birthday: </label>
+        <input type="date" name="birthday" id="birthday" min="1997-01-01">
+        <br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" min="0" max="10" value="1">
+        <br><br>
+        <label for="mobile">Mobile:</label>
+        <input type="tel" name="mobile" id="mobile">
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass" maxlength="12"> max character 12
+        <br><br>
+        <label for="slider">Rate Us:</label>
+        1<input type="range" name="slider" id="slider"  value="50">5
+        <br><br>
+        <label for="sub">Subscribe:</label>
+        <input type="checkbox" name="sub" id="sub" checked>
+        <br><br>
+        <label for="file">File upload</label>
+        <input type="file" name="file" id="file" accept=".txt">
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br> 
+    </form>
+</body>
+</html>

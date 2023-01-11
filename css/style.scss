@@ -1,0 +1,230 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul ,li{
+    list-style: none;
+}
+
+button{
+    background-color: rgb(70, 163, 98);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+img{
+    
+    width: 500px;
+}
+#myDiv{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+}
+
+button{
+    position: absolute;
+    left: 45%;
+    background-color: rgb(70, 163, 98);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+
+
+#MyLabel{
+    position: absolute;
+    right: 47%;
+    font-size: 35px;
+}
+#outerDiv{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+#innerDiv{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+#fruit li{
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgreen;
+    position: relative;
+}
+
+.line h2{
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+label[for=apple]{
+    background-color: yellow;
+}
+
+
+a[class=name]{
+    background-color: yellow;
+}
+
+/*.trans{
+    width: 100%;
+    height: 80vh;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.trans h2{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}*/
+
+.play{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateX(100%);
+}
+
+.play::after{
+    position: absolute;
+    font-size: 25px;
+    content: "After";
+    background-color: lightblue;
+    
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(48, 3, 119); 
+  color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay{
+ position: absolute;
+ left: 10%;
+
+}
+
+.flex-bg{
+    height: 1080px;
+    background-color: rgb(39, 41, 41);
+    
+}
+
+.flex-container{
+
+ width: 200px;
+ background-color: rgb(185, 185, 185);
+ border: 3px solid black;
+ margin: 10px;
+ 
+ position: relative;   
+}
+
+.flex-row{
+    position: absolute;
+    width: 100%;
+    top: 25vh;
+    padding: 50px;
+    background-color: rgb(255, 247, 0);
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flexbox-1{
+    min-height: 100px;
+    flex-shrink: 0;
+    
+}
+
+.flexbox-2{
+    min-height: 200px;
+
+    
+    
+}
+.flexbox-3{
+    min-height: 400px;
+    
+}
+
+.requirement::before{
+    content: "hello";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+
+}
+
+.box{
+    height: 100px;
+    width: calc(100% - 30px);
+    background-color: red;
+    margin: auto;
+}
+
+input[name = "fruits"]{
+    background-color: bisque;
+}
+
+.outline{
+    padding: 50px;
+    border: 15px solid lightblue;
+    outline: 2px dotted blue;
+}
+
+// li:last-of-type{
+//     background-color:  lightgreen;
+// }
+
